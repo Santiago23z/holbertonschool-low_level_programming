@@ -12,7 +12,7 @@ int main(void)
 
 	for (alf = 'a'; alf <= 'z'; alf++)
 		putchar(alf);
-		printf("\n");
+	printf("\n");
 
 	return (0);
 }
