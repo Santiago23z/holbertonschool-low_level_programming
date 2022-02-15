@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+ * main - az
  *
- * Return: Always 0 
+ * Return: Always 0
  */
-void print_alphabet(void)
+void print_alphabet(void);
 {
 	int santi;
 
