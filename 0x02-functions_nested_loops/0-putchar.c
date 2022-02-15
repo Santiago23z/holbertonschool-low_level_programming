@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-	char c[]= "_putchar";
-	int b;
-	b= 0;
- 	while (c[b] != '\0')
-	{	
-		_putchar(c[b]);
-		b++;
-	}
-	_putchar('\n');
-	return (0);
+char c[] = "_putchar";
+int b;
+b = 0;
+while (c[b] != '\0')
+{
+_putchar(c[b]);
+b++;
+}
+_putchar('\n');
+return (0);
 }
