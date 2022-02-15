@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - existencia de minusculas
- * 
- * Return: 0
+ * _islower - main
+ * @c: variable
+ * Return: 1
  */
-int _islower(int d)
+int _islower(int c)
 {
-	if (d >= 'a' && d <= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
 		return (0);
