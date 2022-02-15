@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - sign
- * 
+ * print_sign - main
+ * @z: variable
  * Return: siempre 0
  */
 int print_sign(int z)
