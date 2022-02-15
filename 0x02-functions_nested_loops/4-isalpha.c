@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - isalpha
- * 
+ * _isalpha - main
+ * @c: variable
  * Return: 0
  */
 int _isalpha(int c)
