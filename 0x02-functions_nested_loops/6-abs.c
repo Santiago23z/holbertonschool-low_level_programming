@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - abs
- *
+ * _abs - main
+ * @ab: variable
  * Return: 0
  */
 int _abs(int ab)
