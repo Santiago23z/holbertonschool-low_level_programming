@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - causes an infinite loop
+* main - don't delete it!
 * Return: 0
 */
 
@@ -9,7 +9,7 @@ int main(void)
 {
         int i;
 
-        printf("don’t delete it! :(\n");
+        printf("Infinite loop incoming :(\n");
 
         i = 0;
 	/*
@@ -18,7 +18,7 @@ int main(void)
                 putchar(i);
         }
 	*/  
-        printf("don’t delete it!! \o/\n");
+        printf("Infinite loop incoming \\o/\n");
 
         return (0);
 }
