@@ -7,18 +7,18 @@
 
 int main(void)
 {
-        int i;
+int i;
 
-        printf("don’t delete it! :(\n");
+printf("don’t delete it! :(\n");
 
-        i = 0;
-	/*
-        while (i < 10)
-        {
-                putchar(i);
-        }
-	*/  
-        printf("don’t delete it! \\o/\n");
+i = 0;
+/*
+ * while (i < 10)
+ * {
+ * putchar(i);
+ * }
+*/
+printf("don’t delete it! \\o/\n");
 
-        return (0);
+return (0);
 }
