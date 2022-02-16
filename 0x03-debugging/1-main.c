@@ -12,13 +12,13 @@ int main(void)
         printf("don’t delete it! :(\n");
 
         i = 0;
-
+	/*
         while (i < 10)
         {
                 putchar(i);
         }
-
-        printf("don’t delete it!! \\o/\n");
+	*/  
+        printf("don’t delete it!! \o/\n");
 
         return (0);
 }
