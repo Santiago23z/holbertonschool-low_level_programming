@@ -9,7 +9,7 @@ int main(void)
 {
         int i;
 
-        printf("Infinite loop incoming :(\n");
+        printf("don’t delete it! :(\n");
 
         i = 0;
 	/*
@@ -18,7 +18,7 @@ int main(void)
                 putchar(i);
         }
 	*/  
-        printf("Infinite loop incoming \\o/\n");
+        printf("don’t delete it! \\o/\n");
 
         return (0);
 }
