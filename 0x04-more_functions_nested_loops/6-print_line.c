@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_line -
+ * print_line - imprimir dos lineas
  * @n: variable
  * Return: 0
  */
