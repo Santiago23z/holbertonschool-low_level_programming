@@ -10,4 +10,5 @@ int _strlen(char *t);
 void _puts(char *str);
 void print_rev(char *e);
 int _putchar(char c);
+void rev_string(char *s);
 #endif 
