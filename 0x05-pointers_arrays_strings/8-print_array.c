@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_array -
- *@a
- *@n
+ * print_array -Escriba una función que imprima n elementos
+ *@a: variable
+ *@n: variable
  * Return: print
  */
 void print_array(int *a, int n)
