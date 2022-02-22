@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * print_rev - string en reversa
+ * fcounter
+ * @e: str input
+ * Return: string in reversa
+ */
+void print_rev(char *e)
+{
+	int fcounter = 0;
+	int t, n;
+
+	for (t = 0; e[t] != '\0'; t++)
+	{
+		fcounter++;
+	}
+
+	for (n = (fcounter - 1); n >= 0; n--)
+	{
+		putchar(e[n]);
+	}
+	_putchar('\n');
+
