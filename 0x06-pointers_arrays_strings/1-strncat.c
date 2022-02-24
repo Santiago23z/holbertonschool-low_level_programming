@@ -5,7 +5,7 @@
  * @dest: copy to
  * @src: copy from
  * @n: vatiable
- * Return: Always 0 
+ * Return: Always 0
  */
 char *_strncat(char *dest, char *src, int n)
 {
