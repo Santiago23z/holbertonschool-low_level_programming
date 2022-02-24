@@ -1,21 +1,26 @@
 #include "main.h"
 
 /**
- * *_strncat - una funcion que concatene dos cadenas
- * @dest: cadena 1
- * @src: cadena 2
- * @n: variable 3
- * Return: combinar dos cadenas
+ * _strncat - funcion que concatene dos cadenas
+ * @dest: copy to
+ * @src: copy from
+ * @n: vatiable
+ * Return: Always 0 
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, g;
+	int i, co;
 
 	for (i = 0; dest[i] != '\0'; i++)
 	{
 	}
-	for (g = 0; ((dest[i + g] = *src++) != '\0') && (g < n - 1); g++)
+
+	for (co = 0; co < n; co++)
 	{
+		dest[i + co] = src[co];
+		if (src[co] == '\0')
+			co = n;
 	}
+
 	return (dest);
 }
