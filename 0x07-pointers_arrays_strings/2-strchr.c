@@ -5,6 +5,7 @@
 * @c: this is a c funcion
 * Return: 0
 */
+
 char *_strchr(char *s, char c)
 {
 int x;
