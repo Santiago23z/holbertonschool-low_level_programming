@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * *_strchr - Entry point
@@ -13,7 +12,7 @@ int u;
 for (u = 0; s[u] <= '\0'; u++)
 {
 if (s[u] == c)
-return (&s[u]);
+return (s + u);
 }
 return ('\0');
 }
