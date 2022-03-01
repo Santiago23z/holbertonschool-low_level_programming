@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
-* *_strchr - funcion que retorne llo
-* @s: variable
-* @c: variable
-* Return: 0
-*/
+ * _strchr - Entry point
+ * @s: input
+ * @c: input
+ * Return: Always 0
+ */
 char *_strchr(char *s, char c)
 {
-    int x;
-    for (x = 0; s[x] != '\0'; x++)
-    {
-        if (s[x] == c)
-        return (s + x);
-    }
-    return ('\0');
+	int i;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		if (s[i] == c)
+		return (s + i);
+	}
+
+	return (0);
 }
