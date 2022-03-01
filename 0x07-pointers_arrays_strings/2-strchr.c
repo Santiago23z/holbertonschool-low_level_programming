@@ -1,18 +1,17 @@
 #include "main.h"
-
 /**
- * *_strchr - Entry point
- * @s: input
- * @c: input
- * Return: Always 0
- */
+* *_strchr - this is funtion main
+* @s: this is a funtion
+* @c: this is a c funcion
+* Return: 0
+*/
 char *_strchr(char *s, char c)
 {
-int u;
-for (u = 0; s[u] <= '\0'; u++)
+int x;
+for (x = 0; s[x] != '\0'; x++)
 {
-if (s[u] == c)
-return (s + u);
+if (s[x] == c)
+return (s + x);
 }
 return ('\0');
 }
