@@ -7,9 +7,14 @@
  *
  * Return: Always 0
  */
-int main(int argc, char __attribute__((unused)) *argv[])
+int main(int argc, char **argv)
 {
-printf("%d\n", --argc);
+	int i = 0;
 
-return (0);
+	while (i < argc)
+	{
+		printf("%s\n", argv[i]);
+		i++;
+	}
+	return (0);
 }
