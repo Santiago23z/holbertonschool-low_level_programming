@@ -6,7 +6,7 @@
  * @argv: array of pointers to arguement strings
  * Return: result of multiplication or 1
  */
- #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
