@@ -1,4 +1,3 @@
-int _islower(int c);
 #include "main.h"
 
 /**
