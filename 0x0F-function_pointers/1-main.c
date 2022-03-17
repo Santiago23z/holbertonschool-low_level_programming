@@ -1,38 +1,22 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include "function_pointers.h"
-
 /**
- * print_elem - prints an integer
- * @elem: the integer to print
- *
- * Return: Nothing.
+ * array_iterator - prints each array elem on a newl
+ * @array: array
+ * @size: how many elem to print
+ * @action: pointer to print in regular or hex
+ * Return: void
  */
-void print_elem(int elem)
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-    printf("%d\n", elem);
-}
+	unsigned int i;
 
-/**
- * print_elem_hex - prints an integer, in hexadecimal
- * @elem: the integer to print
- *
- * Return: Nothing.
- */
-void print_elem_hex(int elem)
-{
-    printf("0x%x\n", elem);
-}
+	if (array == NULL)
+		return;
+	if (action == NULL)
+		return;
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int array[5] = {0, 98, 402, 1024, 4096};
-
-    array_iterator(array, 5, &print_elem);
-    array_iterator(array, 5, &print_elem_hex);
-    return (0);
+	for (i = 0; i < size; i++)
+		action(array[i]);
 }
