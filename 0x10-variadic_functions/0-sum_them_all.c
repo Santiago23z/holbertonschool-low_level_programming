@@ -1,5 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
+
 /**
  * sum_them_all - this is main funtion
  * @n: this is n
@@ -16,3 +17,4 @@ for (c = 0; c < n; c++)
 sum += va_arg(l, int);
 va_end(l);
 return (sum);
+}
