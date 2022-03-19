@@ -1,5 +1,7 @@
 #include "variadic_functions.h"
 #include <stdio.h>
+#include <stdarg.h>
+
 /**
  * sum_them_all - this is main funtion
  * @n: this is n
