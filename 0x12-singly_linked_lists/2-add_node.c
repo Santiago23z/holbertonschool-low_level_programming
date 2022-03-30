@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * *add node - añade nuevo nodo en el comienzo de la lista
+ * *add_node - añade nuevo nodo en el comienzo de la lista
  * @head: beginning de la lista
  * @str: cadena a ser duplicada
  * Return: la direccion del nuevo elemento
