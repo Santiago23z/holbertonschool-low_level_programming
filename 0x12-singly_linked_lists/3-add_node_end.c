@@ -1,40 +1,39 @@
-#include "lists.h"
+#include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
-
+#include "lists.h"
 /**
- * add_node_end - function that adds a new node at the end of a linked list
- * @head: previus node head
- * @str: string of the new node
- *
- * Return: addres of the new node
+ * add_node_end - una funcion que añade un nodo
+ * @head: entrada
+ * @str: entrada
+ * Return: 0
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new;
-	list_t *current_node;
+int s, count = 0;
+list_t *new;
+list_t *temp;
 
-	if (head == NULL)
-	{
-		return (NULL);
-	}
-	new = malloc(sizeof(list_t));
-	if (new == NULL)
-	{
-		return (NULL);
-	}
-	new->str = strdup(str);
-	new->len = strlen(str);
-	new->next = NULL;
-	if (*head == NULL)
-	{
-		*head = new;
-		return (new);
-	}
-	current_node = *head;
-	while (current_node->next != NULL)
-	{
-		current_node = current_node->next;
-	}
-	current_node->next = new;
-	return (new)
+new = malloc(sizeof(list_t));
+if (new == NULL)
+return (NULL);
+for (s = 0; str[s] != '\0'; s++)
+count++;
+new->len = s;
+new->str = strdup(str);
+new->next = NULL;
+
+if (*head == NULL)
+{
+*head = new;
+return (new);
+}
+temp = *head;
+
+while (temp->next != NULL)
+temp = temp->next;
+
+temp->next = new;
+
+return (new);
 }
