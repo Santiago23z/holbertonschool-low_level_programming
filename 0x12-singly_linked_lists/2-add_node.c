@@ -2,21 +2,23 @@
 #include <string.h>
 
 /**
- * *add_node - Adds a new node at the beginning of a list_t list.
- * @head: Beginning of a list_l
- * @str: String to be duplicated
- * Return: The address of the new element, or NULL if it failed
+ * **add node - añade nuevo nodo en el comienzo de la lista
+ * @head: beginning de la lista
+ * @str: cadena a ser duplicada
+ * Return: la direccion del nuevo elemento
  */
+
+
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *new;
+list_t *new;
 
-	new = malloc(sizeof(list_t));
-	if (new == NULL)
-		return (NULL);
-	new->str = strdup(str);
-	new->len = strlen(str);
-	new->next = *head;
-	*head = new;
-	return (new)
+new = malloc(sizeof(list_t));
+if (new == NULL)
+return (NULL);
+new->str = strdup(str);
+new->len = strlen(str);
+new->next = *head;
+*head = new;
+return (new);
 }
