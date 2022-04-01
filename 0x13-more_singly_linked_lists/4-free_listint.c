@@ -7,10 +7,12 @@
  */
 void free_listint(listint_t *head)
 {
-if (head == NULL)
-return;
-while (head != NULL)
-{
-free(head);
-}
+	listint_t *tmp;
+
+	while (head != NULL)
+	{
+		tmp = head->next;
+		free(head);
+		head = tmp;
+	}
 }
