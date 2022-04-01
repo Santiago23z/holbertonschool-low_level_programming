@@ -21,6 +21,12 @@ return (NULL);
 }
 new->n = n;
 new->next = NULL;
+if (idx == 0)
+{
+new->next = *head;
+*head = new;
+return (new);
+}
 while (tmp)
 {
 if (index == idx - 1)
