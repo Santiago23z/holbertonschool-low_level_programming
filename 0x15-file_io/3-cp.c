@@ -1,12 +1,12 @@
 #include "main.h"
-	/**
-	* main - program that copies the content of a file to another file
-	* @ac: numero de argumentos
-	* @av: arreglo de argumentos
-	* Return: 0 if success, -1 if it fails
-	*/
-	int main(int ac, char **av)
-	{
+/**
+* main - program that copies the content of a file to another file
+* @ac: numero de argumentos
+* @av: arreglo de argumentos
+* Return: 0 if success, -1 if it fails
+*/
+int main(int ac, char **av)
+{
 	int file, file2, path, end, end2;
 	char buffer[BUFSIZ];
 
