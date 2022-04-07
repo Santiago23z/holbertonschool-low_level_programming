@@ -1,5 +1,4 @@
-#include "main.h"	
-	
+#include "main.h"
 	/**
 	* main - program that copies the content of a file to another file
 	* @ac: numero de argumentos
@@ -10,6 +9,7 @@
 	{
 	int file, file2, path, end, end2;
 	char buffer[BUFSIZ];
+
 	if (ac != 3)
 	{
 	dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
@@ -47,4 +47,4 @@
 	exit(100);
 	}
 	return (0);
-	}
+}
