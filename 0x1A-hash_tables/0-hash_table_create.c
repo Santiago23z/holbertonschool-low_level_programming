@@ -2,6 +2,7 @@
 /**
  * hash_table_create - function that creates a has table
  * @size: insigned long int size
+ * 
  * Return: hash table
  */
 
