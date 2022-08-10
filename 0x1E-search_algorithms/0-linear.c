@@ -5,10 +5,7 @@
  *
  * @array: pointer to the first element of the array.
  * @size: is the number of elements in array.
- * @value: is the value to search for
- *
- * Description: searchs for a given value using linear search
- * algorithm.
+ * @value: is the value to search
  *
  * Return:  the index where the value is at or -1 if couldn't be found.
  */
